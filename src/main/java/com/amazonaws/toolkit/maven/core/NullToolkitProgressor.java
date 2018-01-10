@@ -1,4 +1,4 @@
-package com.amazonaws.toolkit.mojos.core;
+package com.amazonaws.toolkit.maven.core;
 
 import com.amazonaws.toolkit.core.hackathon.ToolkitProgresser;
 

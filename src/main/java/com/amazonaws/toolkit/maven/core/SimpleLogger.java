@@ -1,4 +1,4 @@
-package com.amazonaws.toolkit.mojos.core;
+package com.amazonaws.toolkit.maven.core;
 
 import java.io.IOException;
 

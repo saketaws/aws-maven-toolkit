@@ -19,7 +19,7 @@ import com.amazonaws.toolkit.maven.core.NullToolkitProgressor;
 import com.amazonaws.toolkit.maven.core.SimpleLogger;
 
 @Mojo(name = "uploadToS3", defaultPhase = LifecyclePhase.PRE_INTEGRATION_TEST)
-public class UploadBuildArtifactsToS3Mojo extends AbstractMojo {
+public class UploadToS3Mojo extends AbstractMojo {
     // TODO: Encryption
 
     @Parameter(property = "aws-credentials.profileName", required = true)
